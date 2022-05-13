@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyLyfeV2</string>
+    <string name="mood_of_the_user">Mood of the user</string>
+    <string name="add_comment_button">Add Comment Button</string>
+    <string name="mood_history_button">Mood History Button</string>
+    <string name="show_comment_button">Show Comment Button</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="today">Today</string>
+    <string name="days_ago">days ago</string>
+    <string name="send_To">Send To</string>
+
+    <plurals name="daysInHistoryScreen">
+        <item quantity="zero"></item>
+    </plurals>
+</resources>
