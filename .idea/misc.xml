@@ -16,8 +16,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20025451660156252" />
         <entry key="app/src/main/res/layout/activity_mood_history.xml" value="0.16603088378906256" />
         <entry key="app/src/main/res/layout/activity_resources.xml" value="0.3328125" />
-        <entry key="app/src/main/res/layout/activity_selfcare.xml" value="0.35422027587890625" />
-        <entry key="app/src/main/res/layout/item_mood.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_selfcare.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_mood.xml" value="0.1" />
         <entry key="app/src/main/res/layout/layout_screen.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2595" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.10202581787109366" />

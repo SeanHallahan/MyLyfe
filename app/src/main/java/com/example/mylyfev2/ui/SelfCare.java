@@ -30,11 +30,11 @@ public class SelfCare extends AppCompatActivity {
         startActivity(browserIntent);
     }
     public void open3(View view) {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.betterhelp.com/"));
         startActivity(browserIntent);
     }
     public void open4(View view) {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://niteline.ie/"));
         startActivity(browserIntent);
     }
 }

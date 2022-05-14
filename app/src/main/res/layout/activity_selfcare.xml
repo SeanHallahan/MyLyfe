@@ -7,6 +7,21 @@
     tools:context="ui.SelfCare"
     android:background="@drawable/self_care">
 
+    <TextView
+        android:id="@+id/selfcare_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/better_help"
+        android:layout_below="@id/bda_title"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="75dp"
+        android:text="Self Care"
+        android:textAlignment="center"
+        android:textColor="@color/intro_title_color"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button4"
@@ -18,20 +33,20 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/huh_logo"
+        android:background="@drawable/nite_line"
         android:onClick="open4">
 
     </Button>
 
     <TextView
-        android:id="@+id/placeholder2"
+        android:id="@+id/nite_line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button4"
-        android:layout_marginRight="40dp"
+        android:layout_marginRight="65dp"
         android:layout_marginTop="17dp"
         android:layout_alignParentRight="true"
-        android:text="PLACEHOLDER ?"
+        android:text="NiteLine"
         android:textSize="15dp"
         android:textStyle="bold">
 
@@ -48,19 +63,19 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="17dp"
-        android:background="@drawable/huh_logo"
+        android:background="@drawable/better_help"
         android:onClick="open3">
 
     </Button>
 
     <TextView
-        android:id="@+id/placeholder1"
+        android:id="@+id/better_help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button3"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="55dp"
         android:layout_marginTop="17dp"
-        android:text="PLACEHOLDER"
+        android:text="Better Help"
         android:textSize="15dp"
         android:textStyle="bold">
 
@@ -87,9 +102,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="17dp"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="40dp"
         android:text="Hows your Head ?"
         android:textSize="15dp"
         android:textStyle="bold">
@@ -120,19 +135,7 @@
         android:textSize="15dp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/selfcare_title"
-        android:layout_width="95dp"
-        android:layout_height="43dp"
-        android:layout_above="@+id/placeholder1"
-        android:layout_below="@id/bda_title"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginRight="160dp"
-        android:layout_marginBottom="75dp"
-        android:text="Self Care"
-        android:textAlignment="center"
-        android:textColor="@color/colorSad"
-        android:textSize="25dp" />
+
+
 
 </RelativeLayout>
