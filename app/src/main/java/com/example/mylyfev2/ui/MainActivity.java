@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
     private ImageButton addCommentButton;
     private ImageButton shareAppButton;
     private Button focusTimerButton;
+    private Button selfCareButton;
     private GestureDetectorCompat mDetector;
     private RelativeLayout parentRelativeLayout;
 
@@ -76,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
         moodHistoryButton = findViewById(R.id.btn_mood_history);
         shareAppButton = findViewById(R.id.shareButton);
         focusTimerButton = findViewById(R.id.focusTimerButton);
+        selfCareButton = findViewById(R.id.selfCareButton);
 
         mDetector = new GestureDetectorCompat(this, this);
         mPreferences = PreferenceManager.getDefaultSharedPreferences(this);
@@ -97,6 +99,17 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
                 Log.d(LOG_TAG, "Button clicked!");
                 Intent intent = new Intent(MainActivity.this, FocusTimer.class);
                 startActivity(intent);
+            }
+        });
+
+        //Button to access self care page
+        selfCareButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d(LOG_TAG, "Button clicked!");
+                Intent intent = new Intent(MainActivity.this, SelfCare.class);
+                startActivity(intent);
+
             }
         });
 

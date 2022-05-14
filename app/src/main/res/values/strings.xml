@@ -9,6 +9,8 @@
     <string name="days_ago">days ago</string>
     <string name="send_To">Send To</string>
 
+    <string name="better_days_ahead">Better Days Ahead</string>
+
     <plurals name="daysInHistoryScreen">
         <item quantity="zero"></item>
     </plurals>

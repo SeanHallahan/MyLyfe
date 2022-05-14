@@ -9,9 +9,9 @@
     android:background="@color/colorHappy">
 
     <ImageView
+        android:id="@+id/my_mood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/my_mood"
         android:layout_centerInParent="true"
         android:contentDescription="@string/mood_of_the_user"
         android:src="@drawable/smiley_happy" />
@@ -69,7 +69,21 @@
         android:background="@color/gradient_end_color"
         android:onClick="FocusTimer"
         android:text="Focus Timer"
-        android:textSize="30dp"
-        android:textColor="@color/colorHappy" />
+        android:textColor="@color/colorHappy"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/selfCareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="SelfCare">
+
+    </Button>
 
 </RelativeLayout>

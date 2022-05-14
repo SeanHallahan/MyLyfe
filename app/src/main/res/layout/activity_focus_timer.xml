@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="ui.FocusTimer"
-    android:background="@drawable/foucs_timer_background">
+    android:background="@drawable/focus_timer_background">
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
