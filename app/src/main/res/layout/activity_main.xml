@@ -60,30 +60,32 @@
         android:src="@drawable/ic_mobile_screen_share" />
 
 
-    <Button
+    <ImageButton
         android:id="@+id/focusTimerButton"
-        android:layout_width="138dp"
-        android:layout_height="104dp"
-        android:layout_gravity="end"
-        android:layout_marginRight="10dp"
-        android:background="@color/gradient_end_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
         android:onClick="FocusTimer"
-        android:text="Focus Timer"
-        android:textColor="@color/colorHappy"
-        android:textSize="30dp" />
+        android:src="@drawable/focustimer" />
 
-    <Button
+    <ImageButton
         android:id="@+id/selfCareButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="161dp"
-        android:layout_marginBottom="20dp"
-        android:onClick="SelfCare">
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="13dp"
+        android:background="@null"
+        android:onClick="SelfCare"
+        android:src="@drawable/selfcare">
 
-    </Button>
+    </ImageButton>
 
 </RelativeLayout>

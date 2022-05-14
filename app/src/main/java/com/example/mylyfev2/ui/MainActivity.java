@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
     private ImageButton moodHistoryButton;
     private ImageButton addCommentButton;
     private ImageButton shareAppButton;
-    private Button focusTimerButton;
-    private Button selfCareButton;
+    private ImageButton focusTimerButton;
+    private ImageButton selfCareButton;
     private GestureDetectorCompat mDetector;
     private RelativeLayout parentRelativeLayout;
 
