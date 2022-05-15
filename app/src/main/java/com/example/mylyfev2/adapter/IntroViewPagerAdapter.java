@@ -20,10 +20,6 @@ import com.example.mylyfev2.util.ScreenItem;
 
 import java.util.List;
 
-/**
- * Created by Mutwakil Mo on ${Date}
- */
-
 public class IntroViewPagerAdapter extends PagerAdapter {
 
     Context mContext;
